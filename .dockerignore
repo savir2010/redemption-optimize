@@ -1,0 +1,23 @@
+# Virtual envs and caches
+.venv
+my_env/.venv
+__pycache__
+*.pyc
+.pytest_cache
+.mpl_cache
+*.egg-info
+
+# Git and IDE
+.git
+.cursor
+.idea
+
+# Logs and local outputs
+episode_logs
+saved_models
+*.png
+*.json
+!my_env/**/*.json
+
+# Optional: keep repo smaller
+# my_env/.venv
